@@ -1831,7 +1831,7 @@ function runPayload(PLfile) {
 kexploit().then(() => {
 	setTimeout(() => {
 		runPayload("./goldhen_2.4b18.12.bin");
-		msgs.innerHTML = "تم التفعيل بنجاح ✔";
+		msgs.innerHTML = "تم التفعيل بنجاح";
 	},500);
 }).catch(() => {
     msgs.innerHTML = "فشل التفعيل أعد تشغيل جهازك";
